@@ -1,0 +1,10 @@
+package com.example.article.data.article.model
+
+data class PostModel(
+    val userId: Int,
+    val id: Int,
+    val title: String,
+    val body: String,
+    var username : String,
+    var commpany : String
+)
